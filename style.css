@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+#content_container {
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 8px;
+    position: relative;
+}
+
+#header {
+  max-width: 90%
+  margin: auto;
+  text-align: center;
+}
+
+#footer {
+  max-width: 90%
+  margin: auto;
+  text-align: center;
+}
+
+.image_fill {
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image_fill img {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+a {
+  color: #255f8f;
+  text-decoration: none;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 600px) {
+
+  #main_page {
+      padding: 48px;
+  }
+
+  .header_image {
+      max-width: 256px;
+      width: 100%,
+  }
+
+  h1 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 42px;
+      line-height: 8px;
+      color: #333333;
+      font-weight: 300;
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #656565;
+    font-weight: 400;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  #main_page{
+      padding: 32px;
+  }
+
+  .header_image{
+      max-width: 192px;
+      width: 100%,
+  }
+
+  h1 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      line-height: 8px;
+      color: #333333;
+      font-weight: 300;
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #656565;
+    font-weight: 400;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+  }
+
+}
