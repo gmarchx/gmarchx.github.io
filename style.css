@@ -37,6 +37,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #255f8f;
+  text-decoration: underline;
+}
+
 h4 {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
