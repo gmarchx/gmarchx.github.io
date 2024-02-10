@@ -24,6 +24,7 @@ html, body {
 #header{
   max-width: 1125px;
   margin: auto;
+  padding: 8px;
   position: relative;
 }
 
@@ -87,7 +88,8 @@ a {
 
   h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 130%;
     /*color: #475466;*/
     color: #796C5F;
     font-weight: 400;
@@ -105,6 +107,7 @@ a {
   p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    line-height: 125%;
     color: #001426;
     font-weight: 400;
   }
@@ -145,7 +148,7 @@ a {
   h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #475466;
+    color: #796C5F;
     font-weight: 400;
   }
 
